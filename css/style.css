@@ -1,0 +1,136 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+html {
+   font-size: 100%;
+   line-height: 1;
+   -moz-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	    font-weight: 150;
+	    }
+		
+h1 {
+	font-size: 3.189em;
+	line-height: 1.223;
+		}
+	
+h2  {
+	font-size: 2.126em;
+	line-height: 1.223;
+		    }
+			
+h1, h2 {
+	text-shadow: 0 2px 2px rgba(0, 0, 0, .65);
+			 }
+			 
+h3 {
+	font-size: 1.382em; 
+	line-height: 1.223;
+		}
+		    
+h4 {
+	font-size: 1em;
+	line-height: 1.56;
+	text-transform: uppercase;
+		}
+		
+h3,h4 {      
+	font-weight: 300;
+	text-transform: uppercase;
+		}
+		
+h5 {
+	font-size: .8125em;
+	line-height: 1.125;
+		}
+
+h5,h6 {
+	font-size: .85em;
+	line-height: 1.53;
+	font-weight: 500;
+		}
+
+h6 {
+	color: #aaa;
+	font-weight: 200;
+		}
+
+.container-header {
+  padding: 6em 0;
+  background: #352a38 url("https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?crop=entropy&dpr=2&fit=crop&fm=jpg&h=825&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450") no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  border: solid .5em #352a38;
+  width: 100%;
+  /*font-family: 'Julius Sans One' sans-serif;*/
+}
+
+.masthead {
+  color: #5793D9;
+  background-shadow: #F28A52;  
+  padding: .81em;
+  box-shadow: .3em  .2em  .12em  .15em #F28A52; 
+  display: inline-block;
+  background-color: rgba(237, 234, 244, .85);
+  /*font-family: 'Julius Sans One', sans-serif;*/
+  font-size: 1.1em;
+}
+
+.masthead-name {
+  margin-top: .1em;
+  margin-bottom: .1em;
+}
+
+.masthead-slogan {
+  margin-top: .5em;
+  margin-bottom: .1em;
+}
+
+.masthead-name,
+.masthead-slogan {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Marvel', sans-serif;
+  display: inline-block;
+  background-color: rgba(237, 234, 244, .85);
+  padding: 3em;
+  width: 95%;
+}
+
+.intro span {
+  color: #F28A52;
+  font-size: 1.8126em;
+}
+
+
+.portfolio {
+  display:block;
+  padding: 1em 1.65em;
+
+}
+
+.portfolio article {
+  float:left;
+  width: 33.33%;
+}
+
+.portfolio figure {
+  box-shadow: 0 0 .325em .13em rgba( 0, 0, 0, .1 );
+  -webkit-box-shadow: 0 0 .325em .13em rgba( 0, 0, 0, .1 );
+}
+
+.skills {
+  padding: 6em 0;
+  background:  url("http://i840.photobucket.com/albums/zz326/daf4tee/mountains.jpg") no-repeat top center;
+}
